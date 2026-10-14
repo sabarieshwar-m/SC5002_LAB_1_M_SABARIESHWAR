@@ -4,7 +4,7 @@ by M Sabarieshwar
 ---
 
 ### Task 2.1: Loading California Housing Dataset
-The California housing dataset was loaded and sampled to 1,000 records with a random state of 42[cite: 1, 2]. 
+The California housing dataset was loaded and sampled to 1,000 records with a random state of 42. 
 
 **First 5 rows of the dataset:**
 | Index | MedInc | HouseAge | AveRooms | AveBedrms | Population | AveOccup | Latitude | Longitude | MedHouseVal |
@@ -18,16 +18,16 @@ The California housing dataset was loaded and sampled to 1,000 records with a ra
 ---
 
 ### Task 2.2: Training Linear and Ridge Regression
-Standardization (`StandardScaler`) was applied to the features before splitting the dataset into an 80-20 train-test partition[cite: 1, 2]. Cross-validation was performed using 5 folds to evaluate model performance ($R^2$ score)[cite: 1, 2].
+Standardization (`StandardScaler`) was applied to the features before splitting the dataset into an 80-20 train-test partition[cite: 1, 2]. Cross-validation was performed using 5 folds to evaluate model performance ($R^2$ score).
 
-* **Linear Regression Mean 5-Fold $R^2$ Score:** 0.6457[cite: 1, 2]
-* **Ridge Regression ($\alpha = 0.1$) Mean 5-Fold $R^2$ Score:** 0.6457[cite: 1, 2]
-* **Ridge Regression ($\alpha = 10.0$) Mean 5-Fold $R^2$ Score:** 0.6443[cite: 1, 2]
-* **Ridge Regression ($\alpha = 1000.0$) Mean 5-Fold $R^2$ Score:** 0.3574[cite: 1, 2]
+* **Linear Regression Mean 5-Fold $R^2$ Score:** 0.6457
+* **Ridge Regression ($\alpha = 0.1$) Mean 5-Fold $R^2$ Score:** 0.6457
+* **Ridge Regression ($\alpha = 10.0$) Mean 5-Fold $R^2$ Score:** 0.6443
+* **Ridge Regression ($\alpha = 1000.0$) Mean 5-Fold $R^2$ Score:** 0.3574
 
 ---
 
 ### Task 2.3: Generating Model Comparison Chart
-A performance comparison chart was generated to visualize the mean 5-fold cross-validation $R^2$ scores across the baseline Linear Regression model and various Ridge Regression regularizations[cite: 1, 2].
+A performance comparison chart was generated to visualize the mean 5-fold cross-validation $R^2$ scores across the baseline Linear Regression model and various Ridge Regression regularizations.
 
 ![Linear vs. Ridge Regression Performance Comparison](./images/chart.jpeg)
