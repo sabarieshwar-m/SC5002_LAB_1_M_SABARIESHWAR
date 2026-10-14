@@ -1,5 +1,5 @@
 ## SC5002 Lab Assignment 1 Part 2
-by M Sabarieshwar[cite: 1]
+by M Sabarieshwar
 
 ---
 
