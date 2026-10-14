@@ -18,7 +18,7 @@ The California housing dataset was loaded and sampled to 1,000 records with a ra
 ---
 
 ### Task 2.2: Training Linear and Ridge Regression
-Standardization (`StandardScaler`) was applied to the features before splitting the dataset into an 80-20 train-test partition[cite: 1, 2]. Cross-validation was performed using 5 folds to evaluate model performance ($R^2$ score).
+Standardization (`StandardScaler`) was applied to the features before splitting the dataset into an 80-20 train-test partition. Cross-validation was performed using 5 folds to evaluate model performance ($R^2$ score).
 
 * **Linear Regression Mean 5-Fold $R^2$ Score:** 0.6457
 * **Ridge Regression ($\alpha = 0.1$) Mean 5-Fold $R^2$ Score:** 0.6457
